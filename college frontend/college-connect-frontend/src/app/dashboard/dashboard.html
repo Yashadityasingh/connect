@@ -1,0 +1,82 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <span class="navbar-brand">College Connect</span>
+
+    <!-- Profile Dropdown -->
+    <div class="position-relative ms-auto">
+      <button
+        class="btn btn-outline-light p-1"
+        (click)="toggleProfileDropdown()"
+        aria-label="User Menu"
+      >
+        <i class="bi bi-person-circle" style="font-size: 1.5rem;"></i>
+      </button>
+
+      <!-- Dropdown content -->
+      <div
+        *ngIf="showProfileDropdown"
+        class="dropdown-menu dropdown-menu-end show mt-1"
+        style="position: absolute; right: 0; top: 100%; display: block;"
+      >
+        <div class="px-3 py-2">
+          <small class="text-muted">Logged in as</small><br />
+          <strong>{{ username }}</strong>
+        </div>
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item text-danger" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Dashboard Content -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Welcome to College Connect</h2>
+
+  <div class="row justify-content-center g-4">
+    <div class="col-md-3" *ngIf="role">
+      <a routerLink="/announcements" class="text-decoration-none">
+        <div class="card text-center shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">📢 Announcements</h5>
+            <p class="card-text">Stay updated with the latest news.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a routerLink="/events" class="text-decoration-none">
+        <div class="card text-center shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">📅 Events</h5>
+            <p class="card-text">Check out upcoming college events.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a routerLink="/assignments" class="text-decoration-none">
+        <div class="card text-center shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">📝 Assignments</h5>
+            <p class="card-text">View and submit your assignments.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a routerLink="/chat" class="text-decoration-none">
+        <div class="card text-center shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">💬 Group Chat</h5>
+            <p class="card-text">Collaborate with your group members.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

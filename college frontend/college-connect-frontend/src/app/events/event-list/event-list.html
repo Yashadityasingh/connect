@@ -1,0 +1,124 @@
+<div class="container my-4">
+
+  <!-- Calendar Toggle Button -->
+  <div class="text-center mb-3">
+    <button class="btn btn-outline-primary" (click)="toggleCalendar()">
+      📅 Select Date
+    </button>
+  </div>
+
+  <!-- Dropdown Calendar -->
+  <div *ngIf="showCalendar" class="card shadow-sm mb-4">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <button class="btn btn-outline-secondary btn-sm" (click)="prevMonth()">&lt;</button>
+        <h5 class="mb-0">{{ month | date:'MMMM yyyy' }}</h5>
+        <button class="btn btn-outline-secondary btn-sm" (click)="nextMonth()">&gt;</button>
+      </div>
+
+      <table class="table table-bordered text-center calendar">
+        <thead class="table-light">
+          <tr>
+            <th *ngFor="let d of ['Su','Mo','Tu','We','Th','Fr','Sa']">{{ d }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let week of weeks">
+            <td *ngFor="let day of week"
+                [class.bg-light]="!isSameMonth(day, month)"
+                [class.bg-primary]="selectedDate && isSameDay(day, selectedDate)"
+                [class.text-white]="selectedDate && isSameDay(day, selectedDate)"
+                (click)="onDateClick(day)"
+                style="cursor:pointer;">
+
+              <!-- day number -->
+              <div>{{ day | date:'d' }}</div>
+
+              <!-- replace dot with first event’s title, truncated -->
+              <ng-container *ngIf="eventsMap.get(formatDate(day,'yyyy-MM-dd')) as evs">
+                <div class="small mt-1"
+                     [class.text-danger]="! (selectedDate && isSameDay(day, selectedDate))"
+                     [class.text-white]="selectedDate && isSameDay(day, selectedDate)">
+                  {{ evs[0].title | slice:0:15 }}<ng-container *ngIf="evs[0].title.length > 15">…</ng-container>
+                </div>
+              </ng-container>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Events on Selected Date -->
+  <div *ngIf="selectedDate" class="card mb-4">
+    <div class="card-body">
+      <h5 class="card-title">
+        Events on {{ selectedDate | date:'mediumDate' }}
+      </h5>
+      <ul class="list-group list-group-flush">
+        <li *ngFor="let e of dayEvents" class="list-group-item d-flex justify-content-between align-items-start">
+          <div>
+            <strong>{{ e.title }}</strong><br />
+            <small class="text-muted">{{ e.description }}</small>
+          </div>
+          <button *ngIf="role==='Admin' || role==='Teacher'" class="btn btn-sm btn-danger" (click)="deleteEvent(e.id)">Delete</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- All Events List -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header bg-info text-white">
+      <h5 class="mb-0">All Events</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li *ngFor="let e of events" class="list-group-item d-flex justify-content-between align-items-start">
+        <div>
+          <span class="badge bg-secondary me-2">{{ e.eventDate | date:'shortDate' }}</span>
+          <strong>{{ e.title }}</strong><br />
+          <span class="badge bg-primary me-1">{{ e.targetAudienceType }}</span>
+          <span *ngIf="e.specificGroupId" class="badge bg-warning text-dark">Group ID: {{ e.specificGroupId }}</span>
+        </div>
+        <button *ngIf="role==='Admin' || role==='Teacher'" class="btn btn-sm btn-outline-danger" (click)="deleteEvent(e.id)">Delete</button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Create New Event Form -->
+  <div *ngIf="role==='Admin' || role==='Teacher'" class="card shadow-sm mb-5">
+    <div class="card-body">
+      <h5 class="card-title">Schedule New Event</h5>
+      <form [formGroup]="form" (ngSubmit)="createEvent()">
+        <div class="mb-3">
+          <label class="form-label">Title</label>
+          <input formControlName="title" type="text" class="form-control" placeholder="Event Title" />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Description</label>
+          <textarea formControlName="description" class="form-control" rows="2" placeholder="Event Description"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Date</label>
+          <input formControlName="eventDate" type="date" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Target Audience</label>
+          <input formControlName="targetAudienceType" type="text" class="form-control" placeholder="e.g. All, Teachers" />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Specific Group ID (optional)</label>
+          <input formControlName="specificGroupId" type="number" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success" [disabled]="form.invalid">Create Event</button>
+      </form>
+    </div>
+  </div>
+
+</div>

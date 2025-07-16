@@ -1,0 +1,94 @@
+.event-calendar-wrapper {
+  position: relative;
+  margin: 1rem;
+}
+
+/* Calendar Icon Button */
+.calendar-icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+/* Dropdown Calendar Container */
+.dropdown-calendar {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Calendar Table */
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.calendar th, .calendar td {
+  width: 14.28%;
+  height: 60px;
+  position: relative;
+  padding: 0.2rem;
+}
+
+.other-month {
+  color: #aaa;
+}
+
+.selected {
+  background: rgba(0, 123, 255, 0.2);
+}
+
+/* Day Number & Dot */
+.day-number {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+
+/* Day Events and All Events */
+.day-events, .all-events, .create-event {
+  margin-top: 1rem;
+}
+
+.all-events ul, .day-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.all-events li {
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background: #e0e0e0;
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* Create Event Form */
+.create-event input,
+.create-event textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}

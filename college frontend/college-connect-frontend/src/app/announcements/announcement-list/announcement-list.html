@@ -1,0 +1,58 @@
+<div class="container my-5 announcements">
+
+  <h2 class="mb-4 text-center">📢 Announcements</h2>
+
+  <!-- Loader -->
+  <div *ngIf="loading" class="text-center mb-3">
+    <div class="spinner-border text-primary" role="status"></div>
+    <p class="mt-2">Loading...</p>
+  </div>
+
+  <!-- Post Announcement Form (Admin/Teacher) -->
+  <div *ngIf="role === 'Admin' || role === 'Teacher'" class="card mb-4 shadow-sm">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">Post New Announcement</h5>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="form" (ngSubmit)="create()">
+        <div class="mb-3">
+          <label class="form-label">Title</label>
+          <input type="text" formControlName="title" class="form-control" placeholder="Announcement Title" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Category</label>
+          <input type="text" formControlName="category" class="form-control" placeholder="Category (e.g., General, Urgent)">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea formControlName="message" rows="3" class="form-control" placeholder="Write your announcement..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success" [disabled]="form.invalid">Post Announcement</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Announcement List -->
+  <div class="row" *ngIf="!loading">
+    <div class="col-md-6 mb-4" *ngFor="let a of announcements">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ a.title }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            {{ a.postedOn | date:'medium' }} by {{ a.postedByName }}
+          </h6>
+          <p class="card-text">{{ a.message }}</p>
+          <span class="badge bg-secondary">{{ a.category }}</span>
+
+          <div *ngIf="role === 'Admin' || role === 'Teacher'" class="mt-3">
+            <button class="btn btn-sm btn-outline-danger" (click)="delete(a.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,19 @@
+.chat-container { display: flex; gap: 1rem; padding: 1rem; }
+
+.group-list-pane, .group-details-pane { flex: 1; }
+
+.group-list-pane ul, .group-details-pane .messages ul,
+.group-details-pane .member-list { list-style: none; padding: 0; }
+
+.group-list-pane li, .member-list li, .messages li { margin: 0.5rem 0; }
+
+.group-list-pane span { cursor: pointer; }
+.group-list-pane span.selected { font-weight: bold; }
+
+.tabs { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.tabs button { padding: 0.5rem 1rem; border: none; background: #eee; }
+.tabs button.active { background: #ddd; font-weight: bold; }
+
+.create-group, .member-list { margin-top: 1rem; }
+
+.messages input, .member-management input { width: 80%; }

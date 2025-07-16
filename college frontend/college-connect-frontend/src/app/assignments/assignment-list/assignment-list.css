@@ -1,0 +1,6 @@
+.assignments { padding: 1rem; }
+.create { margin-bottom: 1.5rem; }
+.create input,
+.create textarea { display: block; width: 100%; margin-bottom: .5rem; }
+.submit { margin-top: .5rem; }
+button { margin-right: .5rem; }

@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\college\\college back\\Connect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\controllers\\chatgroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\controllers\\chatgroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\chatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\chatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\chatgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\chatgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\groupmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\groupmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\controllers\\chatmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\controllers\\chatmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\controllers\\submissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\controllers\\submissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|d:\\college\\college back\\connect\\connect\\data\\connectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616BF38C-630A-4ECB-B127-E070BE8A7AA3}|Connect\\Connect.csproj|solutionrelative:connect\\data\\connectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatGroupsController.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Controllers\\ChatGroupsController.cs",
+              "RelativeDocumentMoniker": "Connect\\Controllers\\ChatGroupsController.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Controllers\\ChatGroupsController.cs",
+              "RelativeToolTip": "Connect\\Controllers\\ChatGroupsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:57:12.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatMessageService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\ChatMessageService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\ChatMessageService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\ChatMessageService.cs",
+              "RelativeToolTip": "Connect\\Services\\ChatMessageService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:41:41.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubmissionService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\SubmissionService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\SubmissionService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\SubmissionService.cs",
+              "RelativeToolTip": "Connect\\Services\\SubmissionService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:41:38.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatGroupService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\ChatGroupService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\ChatGroupService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\ChatGroupService.cs",
+              "RelativeToolTip": "Connect\\Services\\ChatGroupService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:25:24.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\EventService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\EventService.cs",
+              "RelativeToolTip": "Connect\\Services\\EventService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:17:31.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\AssignmentService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\AssignmentService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\AssignmentService.cs",
+              "RelativeToolTip": "Connect\\Services\\AssignmentService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:07:49.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\AuthService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\AuthService.cs",
+              "RelativeToolTip": "Connect\\Services\\AuthService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA9wHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:17:33.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Connect\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Connect\\Controllers\\EventController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:17:42.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\AnnouncementService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "Connect\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:07:26.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatMessagesController.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Controllers\\ChatMessagesController.cs",
+              "RelativeDocumentMoniker": "Connect\\Controllers\\ChatMessagesController.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Controllers\\ChatMessagesController.cs",
+              "RelativeToolTip": "Connect\\Controllers\\ChatMessagesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:59:37.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubmissionController.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Controllers\\SubmissionController.cs",
+              "RelativeDocumentMoniker": "Connect\\Controllers\\SubmissionController.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Controllers\\SubmissionController.cs",
+              "RelativeToolTip": "Connect\\Controllers\\SubmissionController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:59:15.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroupMemberService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\GroupMemberService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\GroupMemberService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\GroupMemberService.cs",
+              "RelativeToolTip": "Connect\\Services\\GroupMemberService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:24:46.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileStorageService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Services\\FileStorageService.cs",
+              "RelativeDocumentMoniker": "Connect\\Services\\FileStorageService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Services\\FileStorageService.cs",
+              "RelativeToolTip": "Connect\\Services\\FileStorageService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:17:04.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "Connect\\Controllers\\AnnouncementsController.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "Connect\\Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:03:54.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "Connect\\Interfaces\\IEventService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "Connect\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:03:36.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAnnouncementService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IAnnouncementService.cs",
+              "RelativeDocumentMoniker": "Connect\\Interfaces\\IAnnouncementService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IAnnouncementService.cs",
+              "RelativeToolTip": "Connect\\Interfaces\\IAnnouncementService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:03:33.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAssignmentService.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IAssignmentService.cs",
+              "RelativeDocumentMoniker": "Connect\\Interfaces\\IAssignmentService.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Interfaces\\IAssignmentService.cs",
+              "RelativeToolTip": "Connect\\Interfaces\\IAssignmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:03:33.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConnectDbContext.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Data\\ConnectDbContext.cs",
+              "RelativeDocumentMoniker": "Connect\\Data\\ConnectDbContext.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Data\\ConnectDbContext.cs",
+              "RelativeToolTip": "Connect\\Data\\ConnectDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:03:10.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\college\\college back\\Connect\\Connect\\Utilities\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Connect\\Utilities\\PasswordHasher.cs",
+              "ToolTip": "D:\\college\\college back\\Connect\\Connect\\Utilities\\PasswordHasher.cs",
+              "RelativeToolTip": "Connect\\Utilities\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T05:17:40.505Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
